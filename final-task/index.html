@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>じゃんけんとjQuery</title>
+    <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+
+    <header>
+        <h1>じゃんけん</h1>
+    </header>
+
+    <div class = "button">
+        <h2>コンピュータとじゃんけん</h2>
+        <!-- 0:グー 1:チョキ 2:パー -->
+        <button type="button" onclick="janken(0)">グー</button>
+        <button type="button" onclick="janken(1)">チョキ</button>
+        <button type="button" onclick="janken(2)">パー</button>
+
+        <div id="janken-result">
+            <p id="janken-result-p"></p>
+        </div>
+    </div>
+
+    <div class = "img">
+        <img src="img/IMG_9933.jpg" alt="">
+    
+    </div>
+
+
+    <!-- 外部のjavascriptファイルを読み込む -->
+    <!-- 読み込む順番が重要 -->
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    
+    <!-- じゃんけん -->
+    <script src="js/janken.js"></script>
+
+    <!-- jQueryを使ってみる -->
+    <script src="js/jQuery-test.js"></script>
+
+</body>
+</html>

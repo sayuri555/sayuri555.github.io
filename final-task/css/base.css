@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+h1 {
+    text-align: center;
+    /* 背景色を指定するプロパティ */
+    background-color: rgba(123, 178, 233, 0.932);
+}
+
+h2  {
+    text-align: center;
+}
+
+.button {
+    text-align: center;
+}
+
+.img {
+    text-align: center;
+}
